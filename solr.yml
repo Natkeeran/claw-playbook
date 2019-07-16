@@ -17,7 +17,7 @@
   tasks:
     - name: Unarchive solr config
       unarchive:
-        src: "https://ftp.drupal.org/files/projects/search_api_solr-8.x-1.2.zip"
+        src: "https://ftp.drupal.org/files/projects/search_api_solr-8.x-2.0.zip"
         dest: /tmp
         remote_src: yes
 
