@@ -44,9 +44,9 @@
   name: Islandora-Devops.activemq
   version: 1.0.0
 
-- src: https://github.com/Islandora-Devops/ansible-role-alpaca
+- src: https://github.com/Natkeeran/ansible-role-alpaca
   name: Islandora-Devops.alpaca
-  version: 1.0.0
+  version: vars
 
 #- src: https://github.com/Islandora-Devops/ansible-role-apix
 #  name: Islandora-Devops.apix
@@ -60,9 +60,9 @@
   name: Islandora-Devops.cantaloupe
   version: 1.0.0
 
-- src: https://github.com/Islandora-Devops/ansible-role-crayfish
+- src: https://github.com/Natkeeran/ansible-role-crayfish
   name: Islandora-Devops.crayfish
-  version: 1.0.0
+  version: var_cleanup
 
 - src: https://github.com/Islandora-Devops/ansible-role-drupal-openseadragon
   name: Islandora-Devops.drupal-openseadragon
@@ -84,9 +84,9 @@
   name: Islandora-Devops.fits
   version: 1.0.0
 
-- src: https://github.com/Islandora-Devops/ansible-role-grok
+- src: https://github.com/yorkulibraries/ansible-role-grok
   name: Islandora-Devops.grok
-  version: 1.0.0
+  version: issue-848
 
 - src: https://github.com/Islandora-Devops/ansible-role-karaf
   name: Islandora-Devops.karaf
