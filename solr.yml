@@ -22,7 +22,7 @@
         remote_src: yes
 
     - name: Get solr config files to copy
-      command: "find /tmp/search_api_solr/solr-conf/7.x -type f"
+      command: "find /tmp/search_api_solr/solr-conf/6.x -type f"
       register: files_to_copy
       changed_when: false
 
