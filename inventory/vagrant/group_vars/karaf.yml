@@ -6,8 +6,8 @@
  alpaca_clone_directory: /opt/alpaca
 
  triplestore_namespace: islandora
- alpaca_triplestore_base_url: "http://{{ hostvars[groups['tomcat'][0]].ansible_ssh_host  }}:8080/bigdata"
- alpaca_milliner_base_url: "http://{{ hostvars[groups['crayfish'][0]].ansible_ssh_host  }}:80/milliner"
- alpaca_gemini_base_url: "http://{{ hostvars[groups['crayfish'][0]].ansible_ssh_host  }}:80/gemini"
- alpaca_houdini_base_url: "http://{{ hostvars[groups['crayfish'][0]].ansible_ssh_host  }}:80/houdini"
- alpaca_homarus_base_url: "http://{{ hostvars[groups['crayfish'][0]].ansible_ssh_host  }}:80/homarus"
+ alpaca_triplestore_base_url: "http://{{ hostvars[groups['tomcat'][0]].ansible_ssh_host }}:8080/bigdata"
+ alpaca_milliner_base_url: "http://{{ hostvars[groups['crayfish'][0]].ansible_ssh_host }}:80/milliner"
+ alpaca_gemini_base_url: "http://{{ hostvars[groups['crayfish'][0]].ansible_ssh_host }}:80/gemini"
+ alpaca_houdini_base_url: "http://{{ hostvars[groups['crayfish'][0]].ansible_ssh_host }}:80/houdini"
+ alpaca_homarus_base_url: "http://{{ hostvars[groups['crayfish'][0]].ansible_ssh_host }}:80/homarus"
